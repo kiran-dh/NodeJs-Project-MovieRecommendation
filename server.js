@@ -4,7 +4,7 @@ const express = require('express');
 const dotenv = require('dotenv');
 // importing funtion to connect to data base
 const connectDB = require('./config/db');
-// authentacation ball hooo 
+// authentacation for users
 const authRoutes = require('./routes/authRoutes');
 const movieRoutes = require('./routes/movieRoutes');
 const userRoutes =require('./routes/userRoutes');
